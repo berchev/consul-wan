@@ -46,7 +46,7 @@ vagrant up
 ```
 vagrant status
 ```
-- output should like this:
+- output should look like this:
 ```
 Current machine states:
 
