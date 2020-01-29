@@ -2,6 +2,7 @@
 
 ## Repo description
 This repo provides Vagrant development environment containing simple configuration of 2 Consul Servers located in 2 different datacenters. Every Consul server has 2 Clients 
+
 Some more details:
 - Consul is configured as a systemd service.
 - There is configured non-priviliged user called **consul**, which purpose is to run consul.
