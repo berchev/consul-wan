@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
     datacenter = dc
     # Consul Server IP
     server_ip="192.168.#{50+d}.11"
-    # Hostname of the Consul server
+    # hostname of the Consul server
     hostname_server="server-#{dc}"
 
     config.vm.define hostname_server do |server|
@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
       server.vm.provision :shell, path: "scripts/server_provision.sh", env: { "ip_server" => server_ip, "node_name" => hostname_server, "dc" => datacenter }
     end
 
-    # Chnage increase/decrease range in order to change the count of the clients.
+    # increase/decrease range in order to change the count of the clients.
     (1..2).each do |i|
       client_ip="192.168.#{50+d}.#{20+i}"
       hostname_client="client#{i}-#{dc}"
