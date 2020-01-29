@@ -15,6 +15,15 @@ For more details related to Consul Server/Client configuration, you can check [s
 
 This project can be used as a fundamental step for other consul related project.
 
+## Repo content
+| File                   | Description                      |
+|         ---            |                ---               |
+| [Vagrantfile](Vagrantfile) | Vagrant template file. TFE env is going to be cretated based on that file|
+| [scripts/server_provision.sh](scripts/server_provision.sh) | Consul Server provision script|
+| [scripts/client_provision.sh](scripts/client_provision.sh) | Consul Client provision script|
+| [scripts/client_service.sh](scripts/client_service.sh) | Consul Client web service creation script|
+
+
 ## Requirements
 - VirtualBox installed
 - Hashicorp Vagrant installed
