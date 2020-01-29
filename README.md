@@ -74,5 +74,5 @@ server-dc1.dc1  192.168.51.11:8302  alive   server  1.6.2  2         dc1  <all>
 server-dc2.dc2  192.168.52.11:8302  alive   server  1.6.2  2         dc2  <all>
 vagrant@server-dc1:~$ 
 ```
-- you check the GUI interface for better visibility. Type `http://192.168.51.11:8500` in your favourite browser and will see very intuitive user friendly interface.
+- you can check the GUI interface for better visibility. Type `http://192.168.51.11:8500` in your favourite browser and will see very intuitive user friendly interface.
 
